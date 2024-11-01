@@ -56,39 +56,6 @@ function showSlides1(n) {
 }
 
 
-
-// function showSidebar(){
-//   const sideBar=document.querySelector(".nav-list1-uli")
-//   sideBar.style.display="flex"
-// }
-
-// function hideSidebar(){
-//   const sideBar=document.querySelector(".nav-list1-ul")
-//   sideBar.style.display="none"
-// }
-
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   const menuBar = document.querySelector('.menu-bar');
-//   menuBar.classList.add('show');
-// });
-
-
-
-// function showSidebar(){
-//   const sideBar=document.querySelector(".nav-list1")
-//   sideBar.classList.add('show');
-// }
-// function hideSidebar(){
-//     const sideBar=document.querySelector(".nav-list1")
-//     sideBar.classList.remove('show');
-//   }
-//   function hideSidebar() {
-//     const sideBar = document.querySelector(".nav-list1");
-//     sideBar.style.display = "none"; // Corrected this line
-//   }
-
-
 // function showSidebar() {
 //   const sideBar = document.querySelector(".nav-list1");
 //   sideBar.classList.add('show');
@@ -96,16 +63,28 @@ function showSlides1(n) {
 
 // function hideSidebar() {
 //   const sideBar = document.querySelector(".nav-list1");
-//   sideBar.classList.remove('show');  
+//   sideBar.classList.remove('show');
 // }
 
-function showSidebar() {
+// function toggleSidebar() {
+//   const sideBar = document.querySelector(".nav-list1");
+//   sideBar.classList.toggle('show');
+// }
+// function toggleSidebar() {
+//   const sideBar = document.querySelector(".icon");
+//   sideBar.classList.toggle('add');
+//   sideBar.classList.remove('.menu');  
+// }
+function toggleSidebar() {
   const sideBar = document.querySelector(".nav-list1");
-  sideBar.classList.add('show');
-}
+  const menuIcon = document.querySelector(".menu1");
+  const closeIcon = document.querySelector(".icon");
 
-function hideSidebar() {
-  const sideBar = document.querySelector(".nav-list1");
-  sideBar.classList.remove('show');
+  // Toggle the sidebar visibility
+  sideBar.classList.toggle('show');
+
+  // Toggle visibility of the icons
+  menuIcon.classList.toggle('rem'); // Hide menu icon
+  closeIcon.classList.toggle('add'); // Show close icon
 }
 
