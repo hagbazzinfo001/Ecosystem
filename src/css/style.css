@@ -12,7 +12,8 @@ header{
     text-align: center;
     background: #658C4A;
     height: 40px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
+
     font-size: 16px;
     line-height: 24px;  
 }
@@ -29,7 +30,8 @@ header{
   font-weight: 600;
   color: var(--White, #FFF);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
+
 }
 .marquee span{
    font-size: 3em;
@@ -96,7 +98,8 @@ nav{
     gap: 3rem;
     list-style: none;
     color: var(--Grey-600, #333);
-     font-family: Inter;
+     font-family: "Inter", sans-serif;
+
     font-size: 16px;
     font-weight: 600;
     line-height: 24px; /* 150% */
@@ -120,7 +123,8 @@ nav{
 .h1{
     color: var(--Grey-600, #333);
 text-align: center;
-font-family: "Libre Baskerville";
+  font-family: "Libre Baskerville", serif;
+
 font-size: 4em;
  font-weight: 700;
  padding-inline:2rem ;
@@ -128,7 +132,8 @@ font-size: 4em;
  .para{
     color: var(--Grey-500, #666);
 text-align: center;
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 20px;
  font-weight: 400;
 line-height: 28px; /* 140% */
@@ -142,7 +147,8 @@ padding-inline:5rem ;
     align-items: center;
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
+
     font-size: 20px;
      font-weight: 600;
      border: none;
@@ -201,7 +207,8 @@ text-align: center;
 border: none;
 
 /* Body Small Semibold */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -218,7 +225,8 @@ line-height: 20px; /* 142.857% */
     color: var(--Grey-600, #333);
  
 /* Heading 2 */
-font-family: "Libre Baskerville";
+  font-family: "Libre Baskerville", serif;
+
 font-size: 3em;
  font-weight: 700;
  margin: 1.5rem;
@@ -227,7 +235,8 @@ font-size: 3em;
     color: var(--Grey-600, #333);
 
 /* Body Large Semibold */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 20px;
  font-weight: 600;
 line-height: 28px; /* 140% */
@@ -237,7 +246,8 @@ line-height: 28px; /* 140% */
     color: var(--Primary, #658C4A);
 
 /* Body Normal Semibold */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
@@ -251,7 +261,8 @@ align-items: flex-start;
 .price span{
     align-self: stretch;
     color: var(--Grey-400, #999);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
+
     font-size: 16px;
      font-weight: 600;
     line-height: 24px; /* 150% */
@@ -290,7 +301,8 @@ align-items: flex-start;
     color: var(--Grey-600, #333);
 
 /* Heading 3 */
-font-family: "Libre Baskerville";
+  font-family: "Libre Baskerville", serif;
+
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -312,7 +324,8 @@ line-height: normal;
  .commerce p:first-child{
      text-align: center;
     
-     font-family: "Libre Baskerville";
+     font-family: "Libre Baskerville", serif;
+
     font-size: 2em;
     font-style: normal;
     font-weight: 700;
@@ -343,7 +356,8 @@ line-height: normal;
 text-align: center;
 
 /* Heading 2 */
-font-family: "Libre Baskerville";
+  font-family: "Libre Baskerville", serif;
+
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -405,7 +419,8 @@ flex-shrink: 0; */
     color: var(--Grey-500, #666);
 
 /* Body Large Regular */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 20px;
  font-weight: 400;
 line-height: 28px; /* 140% */
@@ -430,7 +445,7 @@ border-radius: 16px 16px 16px 0px;
 background: var(--Primary, #658C4A);
 width: 52px;
 height: 52px;
-}
+ }
 
 
 
@@ -446,6 +461,9 @@ footer{
     gap: 2rem;
     position: relative;
     border-top: 1px solid #333;
+    margin-bottom: 0;
+    bottom: 0;
+    padding-bottom: 0;
  }
 .footer-div{
     display: flex;
@@ -456,13 +474,15 @@ footer{
     position: absolute;
     right: 3%;
     top: -10%;
+ 
 }
 footer p{
     color: var(--Grey-600, #333);
 text-align: center;
 
 /* Body Small Regular */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -482,7 +502,8 @@ form button{
 text-align: center;
 
 /* Body Large Semibold */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -496,7 +517,8 @@ input:placeholder-shown{
     color: var(--Grey-500, #666);
 
 /* Body Normal Regular */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -538,7 +560,8 @@ width: 50%;
    display: flex;
    color: var(--Grey-500, #666);
 text-align: left;
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 20px;
  font-weight: 400;
 line-height: 28px; /* 140% */
@@ -681,7 +704,8 @@ flex-direction: column;
         .h1{
             color: var(--Grey-600, #333);
             text-align: center;
-            font-family: "Libre Baskerville";
+            font-family: "Libre Baskerville", serif;
+
             font-size: 3em;
               padding-inline:1rem ;
              }
@@ -850,7 +874,8 @@ flex-direction: column;
       .footer h2{
         color: var(--Primary, #658C4A);
 
- font-family: Inter;
+ font-family: "Inter", sans-serif;
+
 font-size: 20px;
 margin-bottom: 1rem;
 display: flex;
@@ -861,7 +886,8 @@ line-height: 28px; /* 140% */
         color: var(--Grey-600, #333);
 
 /* Body Normal Semibold */
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 16px;
  font-weight: 600;
 line-height: 24px; /* 150% */
@@ -893,7 +919,8 @@ align-items: flex-start;
     .footer h2{
       color: var(--Primary, #658C4A);
 
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 16px;
 margin-bottom: 1rem;
 display: flex;
@@ -903,7 +930,8 @@ line-height: 24px; /* 140% */
      .footer a{
       color: var(--Grey-600, #333);
 
- font-family: Inter;
+ font-family: "Inter", sans-serif;
+
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -917,7 +945,8 @@ align-items: flex-start;
       .footer a li{ 
       color: var(--Grey-600, #333);
 
- font-family: Inter;
+ font-family: "Inter", sans-serif;
+
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -978,7 +1007,7 @@ align-items: flex-start;
 .mylast-div{
   display: flex;
   flex-direction: row;
-  width: 98.9svw;
+  /* width: 98.9svw; */
     
 }
 #first-child {
@@ -991,7 +1020,8 @@ align-items: flex-start;
   }
   #first-child p{
 /* Heading 3 */
-font-family: "Libre Baskerville";
+  font-family: "Libre Baskerville", serif;
+
 font-size: 40px;
  font-weight: 700;
 color: var(--Primary, #658C4A);
@@ -1001,7 +1031,7 @@ color: var(--Primary, #658C4A);
  justify-self: flex-end;
  align-self: flex-end;
  text-align: left !important;
- width:60%;
+ width:35%;
   }
   #second-child{
     display: grid;
@@ -1079,7 +1109,8 @@ color: var(--Primary, #658C4A);
   align-items: center;
   list-style: none;
   color: var(--Grey-600, #333);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
+
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;  
@@ -1122,6 +1153,7 @@ color: white;
    right: 2%;
    bottom: 40px;
    display:  flex;
+   align-self: self-end;
     justify-self: right;
    
     padding: 12px;
@@ -1131,7 +1163,7 @@ color: white;
    z-index: 10;
     }
   }
- 
+   
   /* .nav-list1 {
     opacity: 0;  
     transform: translateY(100%); 
