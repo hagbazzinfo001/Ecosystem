@@ -1099,10 +1099,11 @@ color: white;
     }
     .gtb2{
    position: sticky;
-   right:2%;
+   /* right:2%; */
    bottom: 40px;
    display:  flex;
-     justify-self: right;
+     justify-self: left;
+     left: 3%;
    
     padding: 12px;
      background: var(--Primary, #658C4A);
