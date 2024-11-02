@@ -1102,8 +1102,8 @@ color: white;
    /* right:2%; */
    bottom: 40px;
    display:  flex;
-     justify-self: left;
-     left: 3%;
+     justify-self: right;
+     right: 3%;
    
     padding: 12px;
      background: var(--Primary, #658C4A);
