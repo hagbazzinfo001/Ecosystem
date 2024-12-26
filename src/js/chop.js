@@ -28,16 +28,16 @@ function showSlides(n) {
 }
 
 // -----------second---------------------
-let slideIndex1 = 1;
-showSlides1(slideIndex1);
+// let slideIndex1 = 1;
+// showSlides1(slideIndex1);
 
-function plusSlides1(n) {
-  showSlides1(slideIndex1 += n);
-}
+// function plusSlides1(n) {
+//   showSlides1(slideIndex1 += n);
+// }
 
-function currentSlide1(n) {
-  showSlides1(slideIndex1 = n);
-}
+// function currentSlide1(n) {
+//   showSlides1(slideIndex1 = n);
+// }
 
 function showSlides1(n) {
   let i;
@@ -87,4 +87,15 @@ function toggleSidebar() {
   menuIcon.classList.toggle('rem'); // Hide menu icon
   closeIcon.classList.toggle('add'); // Show close icon
 }
+// const ecoElement = document.querySelector('.eco');
 
+// setInterval(() => {
+//   ecoElement.style.transform = 'rotateY(360deg)';
+
+//   // Reset the rotation after it completes
+//   setTimeout(() => {
+//     ecoElement.style.transform = 'rotateY(0deg)';
+//   }, 1000); // Reset after the 1s transition ends
+// }, 2000); // Trigger every 2 seconds
+
+ 
